@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 5b84d4c1f5d40204eae1f8a0834b80c4
+timeCreated: 1452766994
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: IceMonster-Head
+    21300002: IceMonster-Body
+    21300004: IceMonster-Arm-Down-Right
+    21300006: IceMonster-Arm-Med-Right
+    21300008: IceMonster-Arm-Med-Left
+    21300010: IceMonster-Arm-Down-Left
+    21300012: IceMonster-Leg-Up-Right
+    21300014: IceMonster-Leg-Down-Right
+    21300016: IceMonster-Leg-Up-Left
+    21300018: IceMonster-Leg-Med-Right
+    21300020: IceMonster-Leg-Med-Left
+    21300022: IceMonster-Leg-Down-Left
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: IceMonster-Head
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 125
+        width: 64
+        height: 155
+      alignment: 9
+      pivot: {x: .670295954, y: .122515276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Body
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 114
+        width: 80
+        height: 166
+      alignment: 9
+      pivot: {x: .485659212, y: .517278016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Arm-Down-Right
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 202
+        width: 53
+        height: 37
+      alignment: 9
+      pivot: {x: .90045768, y: .732552171}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Arm-Med-Right
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 217
+        width: 117
+        height: 63
+      alignment: 9
+      pivot: {x: .936350226, y: .764051139}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Arm-Med-Left
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 146
+        width: 134
+        height: 72
+      alignment: 9
+      pivot: {x: .936642766, y: .810715556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Arm-Down-Left
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 144
+        width: 67
+        height: 34
+      alignment: 9
+      pivot: {x: .902396381, y: .516871274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Leg-Up-Right
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 54
+        height: 106
+      alignment: 9
+      pivot: {x: .808059931, y: .927515924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Leg-Down-Right
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 68
+        width: 57
+        height: 28
+      alignment: 9
+      pivot: {x: .761655331, y: .807301104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Leg-Up-Left
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 37
+        height: 127
+      alignment: 9
+      pivot: {x: .732552171, y: .920058906}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Leg-Med-Right
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2
+        width: 33
+        height: 135
+      alignment: 9
+      pivot: {x: .430468947, y: .678462386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Leg-Med-Left
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 23
+        width: 66
+        height: 103
+      alignment: 9
+      pivot: {x: .404394895, y: .65036875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: IceMonster-Leg-Down-Left
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 10
+        width: 51
+        height: 42
+      alignment: 9
+      pivot: {x: .668714166, y: .868761599}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

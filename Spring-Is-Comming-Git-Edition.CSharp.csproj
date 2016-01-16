@@ -91,10 +91,13 @@
     <Compile Include="Assets\Scripts\arrowShoot.cs" />
     <Compile Include="Assets\Scripts\bow.cs" />
     <Compile Include="Assets\Scripts\enemy.cs" />
+    <Compile Include="Assets\Scripts\enemyCommon.cs" />
+    <Compile Include="Assets\Scripts\enemyParts.cs" />
     <Compile Include="Assets\Scripts\enemySpawn.cs" />
     <Compile Include="Assets\Scripts\fire.cs" />
     <Compile Include="Assets\Scripts\player.cs" />
     <Compile Include="Assets\Scripts\pointOfNoReturn.cs" />
+    <Compile Include="Assets\bowRotation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />

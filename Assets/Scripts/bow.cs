@@ -43,15 +43,15 @@ public class bow : MonoBehaviour {
             float dy = (worldPos.y - transform.position.y);
             float angle = Mathf.Atan2(dy, dx) * Mathf.Rad2Deg;
             if (dx < 0)
-                angle = 90;
+                angle = 90+45;
             if (dy < 0)
-                angle = 0;
+                angle = 0+45;
 
-            if (transform.eulerAngles.z > angle + 2)
+            if (transform.eulerAngles.z > angle + 2+45)
             {
                 transform.RotateAround(point, new Vector3(0, 0, -1), 90 * Time.deltaTime);
             }
-            if (transform.eulerAngles.z < angle - 2)
+            if (transform.eulerAngles.z < angle - 2+45)
             {
                 transform.RotateAround(point, new Vector3(0, 0, -1), -90 * Time.deltaTime);
             }

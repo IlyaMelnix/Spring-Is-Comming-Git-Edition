@@ -2,9 +2,10 @@
 using System.Collections;
 
 public class player : MonoBehaviour {
-    
-	// Use this for initialization
-	void Start () {
+
+    public Animator IvanAnimator;
+    // Use this for initialization
+    void Start () {
         SavePrefs.Start(); //сохранение начальных значений переменных
 	}
 	

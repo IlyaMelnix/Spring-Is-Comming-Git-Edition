@@ -12,7 +12,7 @@ public class SkySpeed : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(Vector2.right * 2 * Time.deltaTime);
+        transform.Translate(Vector2.right  * Time.deltaTime);
         if (transform.position.x < - 13 || transform.position.x > 16)
         {
             Destroy(gameObject);

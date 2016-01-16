@@ -87,7 +87,7 @@ public class GUIScript : MonoBehaviour
         // Установка значения индикатора горения
         if (PlayerPrefs.HasKey("burning"))
         {
-            BeforeTheArrivalOfSpring.value = Mathf.MoveTowards(BeforeTheArrivalOfSpring.value, 100.0f, PlayerPrefs.GetInt("burning") * Time.deltaTime / 5);
+            BeforeTheArrivalOfSpring.value = Mathf.MoveTowards(BeforeTheArrivalOfSpring.value, 100.0f, PlayerPrefs.GetInt("burning") * Time.deltaTime );
             BurningIndicator.value = PlayerPrefs.GetInt("burning");
         }
         if (PlayerPrefs.GetInt("burning") == 0)

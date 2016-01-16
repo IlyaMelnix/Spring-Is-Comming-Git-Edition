@@ -49,7 +49,7 @@ public class arrow : MonoBehaviour {
             GetComponent<Rigidbody2D>().isKinematic = true; //отключение физики стрелы
             GetComponent<BoxCollider2D>().enabled = false; //отключение столкновений
             isRotate = false; //отключение врщения
-            if(other.gameObject.tag == "airEnemy" || other.gameObject.tag == "groundEnemy")
+            if(other.gameObject.tag == "airEnemy" || other.gameObject.tag == "enemyParts")
             {
                 transform.parent = other.transform;
             }

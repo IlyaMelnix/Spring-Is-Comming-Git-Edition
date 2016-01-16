@@ -59,8 +59,11 @@ public class GUIScript : MonoBehaviour
         {
             if (PlayerPrefs.HasKey("burning"))
             {
-                PlayerPrefs.SetInt("burning", PlayerPrefs.GetInt("burning") - 1);
-                PlayerPrefs.Save();
+                if(PlayerPrefs.GetInt("burning")>1)
+                {
+                    PlayerPrefs.SetInt("burning", PlayerPrefs.GetInt("burning") - 1);
+                    PlayerPrefs.Save();
+                }                
             }
             Debug.Log(PlayerPrefs.GetInt("burning"));
             yield return new WaitForSeconds(10.0f);
@@ -110,6 +113,11 @@ public class GUIScript : MonoBehaviour
     {
         Time.timeScale = 0;
         VictoryUI.SetActive(true);
+    }
+
+    public void nextLevel()
+    {
+        Application.LoadLevel(Application.loadedLevel + 1);
     }
 
     public void restart ()

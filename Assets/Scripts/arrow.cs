@@ -40,6 +40,10 @@ public class arrow : MonoBehaviour {
             GetComponent<BoxCollider2D>().enabled = false; //отключение столкновений
             isRotate = false; //отключение врщения
         }
+        if (transform.position.x > 8) //удалять стрелу сразу, когда она вылетела за правый край игрового поля
+        {
+            Destroy(gameObject);
+        }
     }
     
     void OnCollisionEnter2D (Collision2D other)

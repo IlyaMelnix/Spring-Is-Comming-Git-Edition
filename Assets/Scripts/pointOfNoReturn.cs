@@ -9,7 +9,7 @@ public class pointOfNoReturn : MonoBehaviour {
     // либо тут сделать проверку, чтоб на летающем не срабытвало
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "airEnemy" || other.gameObject.tag == "groundEnemy")
+        if ( other.gameObject.tag == "groundEnemy") //other.gameObject.tag == "airEnemy" ||
         {
             Debug.Log("Enemy Here");
             if (PlayerPrefs.HasKey("burning"))

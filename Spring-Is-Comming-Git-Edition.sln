@@ -1,11 +1,11 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring-Is-Comming-Git-Edition.CSharp.Plugins", "Spring-Is-Comming-Git-Edition.CSharp.Plugins.csproj", "{3CB7EC1B-AB8A-6FFB-6C3D-EE50D4190150}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{FA1E5205-AA74-095F-EE8E-016793D6D47B}") = "Spring-Is-Comming-Git-Edition", "Assembly-CSharp-firstpass.csproj", "{9C7ED5E9-10B0-E334-E975-73ABAC47D320}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring-Is-Comming-Git-Edition.CSharp", "Spring-Is-Comming-Git-Edition.CSharp.csproj", "{79A689E3-F15F-4C16-7891-83D35BD914E4}"
+Project("{FA1E5205-AA74-095F-EE8E-016793D6D47B}") = "Spring-Is-Comming-Git-Edition", "Assembly-CSharp.csproj", "{30D9C7E7-55ED-496A-DBB7-0AB74FFD7EB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spring-Is-Comming-Git-Edition.CSharp.Editor", "Spring-Is-Comming-Git-Edition.CSharp.Editor.csproj", "{10AC74E8-E752-3F53-35AC-D396EF9C81FE}"
+Project("{FA1E5205-AA74-095F-EE8E-016793D6D47B}") = "Spring-Is-Comming-Git-Edition", "Assembly-CSharp-Editor.csproj", "{28427C4D-6C04-B0D2-6CA0-AD2F9317B347}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +13,40 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3CB7EC1B-AB8A-6FFB-6C3D-EE50D4190150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3CB7EC1B-AB8A-6FFB-6C3D-EE50D4190150}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3CB7EC1B-AB8A-6FFB-6C3D-EE50D4190150}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3CB7EC1B-AB8A-6FFB-6C3D-EE50D4190150}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79A689E3-F15F-4C16-7891-83D35BD914E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79A689E3-F15F-4C16-7891-83D35BD914E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79A689E3-F15F-4C16-7891-83D35BD914E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79A689E3-F15F-4C16-7891-83D35BD914E4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10AC74E8-E752-3F53-35AC-D396EF9C81FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10AC74E8-E752-3F53-35AC-D396EF9C81FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10AC74E8-E752-3F53-35AC-D396EF9C81FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10AC74E8-E752-3F53-35AC-D396EF9C81FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C7ED5E9-10B0-E334-E975-73ABAC47D320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7ED5E9-10B0-E334-E975-73ABAC47D320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7ED5E9-10B0-E334-E975-73ABAC47D320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7ED5E9-10B0-E334-E975-73ABAC47D320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D9C7E7-55ED-496A-DBB7-0AB74FFD7EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D9C7E7-55ED-496A-DBB7-0AB74FFD7EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D9C7E7-55ED-496A-DBB7-0AB74FFD7EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D9C7E7-55ED-496A-DBB7-0AB74FFD7EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28427C4D-6C04-B0D2-6CA0-AD2F9317B347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28427C4D-6C04-B0D2-6CA0-AD2F9317B347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28427C4D-6C04-B0D2-6CA0-AD2F9317B347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28427C4D-6C04-B0D2-6CA0-AD2F9317B347}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+																						GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
 EndGlobal
